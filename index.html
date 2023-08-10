@@ -19,24 +19,24 @@
                     src="/arch-motorcycle_100x54.png"
                     alt="ARCH-Motorcycles logo"
                     class="header-logo"
-                    tabindex="1">
+                    tabindex="0" id="1">
             </div>
             <nav>
                 <ul>
                     <li>
-                        <a href="#" tabindex="2">About</a>
+                        <a id="2" href="#" tabindex="0">About</a>
                     </li>
                     <li>
-                        <a href="#" tabindex="3">Gallery</a>
+                        <a id="3" href="#" tabindex="0">Gallery</a>
                     </li>
                     <li>
-                        <a href="#" tabindex="4">Blog</a>
+                        <a id="4" href="#" tabindex="0">Blog</a>
                     </li>
                 </ul>
             </nav>
         </header>
         <main>
-            <section class="intro" tabindex="5">
+            <section id="5" class="intro" tabindex="0">
                 <div class="wrap wrap-column wrap-center">
                     <header>
                         <h1>Welcome to the Keanu Reeves Info Page!</h1>
@@ -44,7 +44,7 @@
                     <img
                         src="/keanu-reeves_in-2019_264x356.jpg"
                         alt="A colour photo of Keanu Reeves taken in 2009."
-                        class="intro-image">
+                        id="6" class="intro-image" tabindex="0">
                     <p aria-hidden="true">A colour photo of Keanu Reeves taken in 2009.</p>
                     <p>
                         Keanu Reeves performance in the horror film 'The Devil's Advocate;' (1997) was
@@ -77,13 +77,13 @@
                         leave behind as a legacy.</p>
                 </div>
             </section>
-            <section tabindex="6" class="find-out-more">
+            <section id="7" tabindex="0" class="find-out-more">
                 <div class="wrap wrap-column">
                     <h2>Find Out More</h2>
                     <p>To read more about Keanu Reeves on his IMDB page, please click on the below
                         link.</p>
-                    <a
-                        tabindex="7"
+                    <a id="8"
+                        tabindex="0"
                         href="https://www.imdb.com/name/nm0000206/"
                         class="text-anchor"
                         target="_blank"
@@ -91,28 +91,23 @@
                         Read More (Opens in a new tab or window)
                     </a>
                     <!-- <span class="sr-only">Read more about Keanu Reeves on his IMDB page - link
-                    opens in a new Tab or Window</span> --- just repeats what ARIA said including
-                    the text within the span, so not sure why ARIA doesn't translate well as you
-                    said? As “sr-only” is supported by all major browsers why not just use that?
-                    Your comments would be greatly appreciated. -->
+                    opens in a new Tab or Window</span> --- Jaws only understands the following languages English, UK and USA, Castilian Spanish, Latin American Spanish, French, French Canadian, German, Italian, Brazilian Portuguese, and Finnish only. -->
                     <p>To read more about ARCH-Motorcycles, please click on the below link.</p>
-                    <a
-                        tabindex="8"
+                    <a id="9"
+                        tabindex="0"
                         href="https://archmotorcycle.com/"
                         class="text-anchor"
                         target="_blank"
                         aria-label="Read more about ARCH-Motorcycles, please click on the below link - link opens in a new Tab or Window">
                         Read More (Opens in a new tab or window)</a>
                     <!-- <span class="sr-only">To read more about ARCH-Motorcycles, please click on
-                    the below link</span> --- just repeats what ARIA said including the text within
-                    the span, so not sure why ARIA doesn't translate well as you said? As “sr-only”
-                    is supported by all major browsers why not just use that? Your comments would be
-                    greatly appreciated. -->
+                    the below link</span> --- NVDA only understands 43 microsoft langauges listed via https://support.microsoft.com/en-us/windows/ appendix-a-supported-languages-and-voices-4486e345-7730-53da-fcfe-55cc64300f01 
+                    So for all other languages simple use "sr-only" and native text -->
                 </div>
             </section>
-            <section tabindex="9" class="contact">
+            <section id="10" tabindex="0" class="contact">
                 <div class="wrap wrap-column">
-                    <h3 class="contact Keanu">Contact Keanu</h3>
+                    <h2 class="contact Keanu">Contact Keanu</h2>
                     <p>If you'd like to chat directly with Keanu Reeves, please fill in the below form.</p>
                     <form action="">
                         <p>All fields marked with * are required</p>

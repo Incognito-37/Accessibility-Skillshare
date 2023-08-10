@@ -183,7 +183,7 @@ form > button {
 }
 
 form > button:hover {
-    background-color: var(--menutx2);
+    background-color: var(--menutx3);
     border: solid 1px black;
     color: black;
     transform: scale(1.0);
@@ -221,10 +221,63 @@ footer {
 }
 
 a:focus {
+    font-style: bolder;
+    text-decoration: underline;
     outline-style: double;
     outline-color: var(--menutx2);
     padding: 0.5rem;
 }
+
+.id1 {
+    color: var(--menutx2);
+    order: 1
+}
+
+.id2 {
+    color: var(--menutx2);
+    order: 2
+}
+
+.id3 {
+    color: var(--menutx2);
+    order: 3
+}
+
+.id4 {
+    color: var(--menutx2);
+    order: 4
+}
+
+.id5 {
+    color: var(--menutx2);
+    order: 5
+}
+
+.id6 {
+    color: var(--menutx2);
+    order: 6
+}
+
+.id7 {
+    color: var(--menutx2);
+    order: 7
+}
+
+.id8 {
+    color: var(--menutx2);
+    order: 8
+}
+
+.id9 {
+    color: var(--menutx2);
+    order: 9
+}
+
+.id10 {
+    color: var(--menutx2);
+    order: 10
+}
+
 
 @media all and (min-width: 375px) {
     form {
